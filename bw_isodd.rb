@@ -8,8 +8,11 @@ def bw_isodd n
     end
 end
 
-if bw_isodd 4
-    puts "true"
-else
-    puts "false"
+i = 0
+while 1 < 100000000
+    if bw_isodd 4
+        puts "true"
+    else
+        puts "false"
+    end
 end
